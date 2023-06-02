@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "mulitply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "valuePlusThree",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"viewExercise.sol": "practise"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"viewExercise.sol": {
+			"keccak256": "0xa8b3acd96aef10015113322a89a9b2b3882b4e26a6047833e5814297b65bace6",
+			"urls": [
+				"bzz-raw://a6f41718859ffed2374d726f14ec92c238b90816a30f8c9349a2d5372c802ab8",
+				"dweb:/ipfs/QmRec8Z3mXqkefwKvqgHqdDheqz4M8yLwUeYWsVuXgeB5c"
+			]
+		}
+	},
+	"version": 1
+}

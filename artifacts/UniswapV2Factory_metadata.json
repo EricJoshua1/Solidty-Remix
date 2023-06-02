@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenA",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "tokenB",
+						"type": "address"
+					}
+				],
+				"name": "getPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "pair",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"InterfaceExercise.sol": "UniswapV2Factory"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"InterfaceExercise.sol": {
+			"keccak256": "0xe9bb314689f1fa0d159c44b128734fcf7534474d518949aef1f5661725fc40b7",
+			"urls": [
+				"bzz-raw://718c91d743b8c8ff2901f4326eb19a7da938f7a87b74592560e1dd53936deaab",
+				"dweb:/ipfs/QmNVU2aHDats1BdWi8zb5hXaqFcFTawr5H9PeYUYpcTFKM"
+			]
+		}
+	},
+	"version": 1
+}

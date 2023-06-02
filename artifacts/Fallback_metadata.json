@@ -1,0 +1,75 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "gas",
+						"type": "uint256"
+					}
+				],
+				"name": "Log",
+				"type": "event"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getbalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"fallBack.sol": "Fallback"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"fallBack.sol": {
+			"keccak256": "0x878368694fd856816fec28d23fbde0c62effd7612bd765f91960542febbe7d1c",
+			"urls": [
+				"bzz-raw://b06f1fdc683f1e3a48bffaf293ba0fa57f35e2bbaf5b02a7a99b0a5685eb4bb5",
+				"dweb:/ipfs/QmQ4bar4Sp5kzScKXc6LtnD7wxdxLbgBJ2EsaePJJuwr7U"
+			]
+		}
+	},
+	"version": 1
+}

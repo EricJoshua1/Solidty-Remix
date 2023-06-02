@@ -1,0 +1,71 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_newOwner",
+						"type": "address"
+					}
+				],
+				"name": "forceOwnerChange",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"restricted-Access-Exercise.sol": "costRestrictedAccess"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"restricted-Access-Exercise.sol": {
+			"keccak256": "0x3cfae4fd363eeb9e66b3c945cce48a389a0e36d5d59dfda76bacfe745dda4f72",
+			"urls": [
+				"bzz-raw://96d8ead354b23843fa523de11dc7e11b19ee2f183d02f2c614701090fcabfcd5",
+				"dweb:/ipfs/QmNwNiuJxBetZHD9V1cx2C25nmEkKgvjYtjzRcQcqe29nr"
+			]
+		}
+	},
+	"version": 1
+}
